@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meine Wetter-Website</title>
+</head>
+<body>
+    <h1>Aktuelles Wetter</h1>
+    <div id="weather-info"></div>
+
+    <!-- Include the OpenWeatherMap API JavaScript library -->
+    <script src="https://openweathermap.org/api/js/5.2.0/openweathermap.js"></script>
+
+    <!-- Set your OpenWeatherMap API key -->
+    <script>OpenWeatherMap.setApiKey("b9767a3578e2c7a7206b0b2ff609f372");</script>
+
+    <script>
+        const cityId = 2930900; // London
+
+        // Make a request to the OpenWeatherMap API to get the current weather data for the specified city
+        OpenWeatherMap.getCurrent(cityId).then(data => {
+            // Display the current temperature and weather description
+            document.getElementById("weather-info").innerHTML = `
+                <p>Temperatur: ${data.temperature.value}°C</p>
+                <p>Wetterbeschreibung: ${data.weather[0].description}</p>
+            `;
+        });
+    </script>
+</body>
+</html>
