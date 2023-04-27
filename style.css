@@ -41,8 +41,68 @@ body{
     color: gray;
     padding: 16px;
 }
-#imp{
+
+#offline{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+	text-align: center;
+    margin: auto;
+    padding: 16px;
+    font-size: 75px;
+}
+#offline :hover{
+    color: black;
+}
+#contact a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#impress{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-	text-align: center;	
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#ei{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+#Services{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+#ei a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+#impress a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+#impressname{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+#j a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+#j{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 100px;
 }

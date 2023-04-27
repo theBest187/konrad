@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+  "name": "Unlustige Jokes",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "Default_title": "Unlustige Jokes"
+  },
+  "description": "Random Jokes"
+}
