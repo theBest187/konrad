@@ -1,5 +1,5 @@
 async function fetchData(){
-    let response = await fetch('https://v2.jokeapi.dev/joke/Any?lang=de&blacklistFlags=racist,sexist');
+    let response = await fetch('https://v2.jokeapi.dev/joke/Any?lang=de&blacklistFlags=sexist');
     let data = await response.json();
     if(data.type == "twopart"){
         document.getElementById('Joke').innerHTML = data.setup;
