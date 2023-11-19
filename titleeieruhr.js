@@ -16,7 +16,7 @@ function loaded(){
 
 var x = 0;
 
-var titleText = [ "K", "KO", "KON", "KONR", "KONRA", "KONRAD", "KONRAD.", "KONRAD.T", "KONRAD.TK","KONRAD.T", "KONRAD.", "KONRAD", "KONRA", "KONR", "KON", "KO", "K" ];
+var titleText = [ "E", "EI", "EIE", "EIER", "EIERU", "EIERUH", "EIERUHR", "EIERUH", "EIERU","EIER", "EIE", "EI", "E"];
 
 function loop(){
 

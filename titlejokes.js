@@ -16,7 +16,7 @@ function loaded(){
 
 var x = 0;
 
-var titleText = [ "K", "KO", "KON", "KONR", "KONRA", "KONRAD", "KONRAD.", "KONRAD.T", "KONRAD.TK","KONRAD.T", "KONRAD.", "KONRAD", "KONRA", "KONR", "KON", "KO", "K" ];
+var titleText = [ "U", "UN", "UNL", "UNLU", "UNLUS", "UNLUST", "UNLUSTI", "UNLUSTIG", "UNLUSTIGE","UNLUSTIGE J", "UNLUSTIGE JO", "UNLUSTIGE JOK", "UNLUSTIGE JOKE", "UNLUSTIGE JOKES", "UNLUSTIGE JOKE", "UNLUSTIGE JOK", "UNLUSTIGE JO", "UNLUSTIGE J", "UNLUSTIGE", "UNLUSTIG", "UNLUSTI", "UNLUST", "UNLUS", "UNLU", "UNL", "UN", "U"];
 
 function loop(){
 
